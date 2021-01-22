@@ -1,0 +1,50 @@
+/* reset de margens */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    cursor: url(imagens/chinelo.png) 30 30, auto;
+}
+body {
+    background-image: url(imagens/fundo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat center fixed;
+    height: 100vh; /* 100% não resolve nesse caso */
+}
+.barata {
+    width: 170px;
+    height: 170px;
+}
+.barata1 {
+    width: 190px;
+    height: 190px;
+}
+.barata2 {
+    width: 210px;
+    height: 210px;
+}
+.ladoA {
+    transform: scaleX(1);
+}
+.ladoB {
+    transform: scaleX(-1);
+}
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+.vidas {
+    float: left;
+}
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
